@@ -1,10 +1,10 @@
 const eqArrays = function(list1, list2) {
-  if (list1.length !== list2.length){
+  if (list1.length !== list2.length) {
     return false;
   }
 
-  for (let i=0; i<list1.length; i++){
-    if (list1[i] !== list2[i]){
+  for (let i=0; i<list1.length; i++) {
+    if (list1[i] !== list2[i]) {
       return false;
     }
   }
@@ -21,3 +21,4 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3], [1, 2, "3"]);
