@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const middle = require('../middle.js');
+const middle = require('../middle');
 
 describe("#middle", () => {
   it("should return an empty array when passed an empty array", () => {
