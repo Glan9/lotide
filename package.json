@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@splcurran/lotide",
   "version": "1.0.0",
-  "description": "course work",
+  "description": "A small library of utility functions, developed as course work.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Glan9/lotide.git"
   },
-  "author": "",
+  "author": "splcurran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Glan9/lotide/issues"
